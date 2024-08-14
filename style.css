@@ -1,0 +1,22 @@
+/* Amir Khan */
+
+* {
+	box-sizing: border-box;
+	border: 200px;
+	background-color:azure;
+	position: relative;
+}
+
+.column {
+	float: left;
+	width: 15%;
+	padding: 20px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.row::after {
+	content:normal;
+	display:flex;
+	clear: both;
+}
